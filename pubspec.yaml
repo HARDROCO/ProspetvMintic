@@ -68,6 +68,7 @@ flutter:
   - assets/fondo2.jpg
   - assets/fondo3.jpg
   - googleicon.png
+  - assets/LOGO2.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

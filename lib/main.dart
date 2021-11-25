@@ -3,7 +3,7 @@ import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 import 'package:get/get_navigation/src/routes/transitions_type.dart';
 import 'package:social_net/ui/widgets/filas_colum_list.dart';
-//import 'package:practica_2/ui/widgets/testing.dart';
+import 'package:social_net/nav/vistas.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       //home: MyHomePage(),
       home: HomePage(),
       // rutas
-      initialRoute: '/Home',
+      initialRoute: '/',
       getPages: [
         GetPage(
             name: '/Home',
@@ -51,6 +51,10 @@ class MyApp extends StatelessWidget {
         GetPage(
             name: '/TesterPage',
             page: () => TesterPage(),
+            transition: Transition.fadeIn),
+        GetPage(
+            name: '/VistaPpal',
+            page: () => VistaPpal(),
             transition: Transition.fadeIn),
       ],
     );

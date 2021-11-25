@@ -41,11 +41,11 @@ Widget BodyHome(context) {
               height: 30,
             ),
             // boton para ir a la pagina de login
-            BotonDefault(context, textobtn = 'Ir a Inicio Sesión'),
+            BotonDefault(context, textobtn = 'Iniciar Sesión'),
             const SizedBox(
               height: 20,
             ),
-            BotonDefault(context, textobtn = 'Ir a Registro'),
+            BotonDefault(context, textobtn = 'Registrarse'),
           ],
         ),
       ));
@@ -58,12 +58,12 @@ Widget Logo() {
       margin: const EdgeInsets.all(8),
       color: Colors.transparent,
       padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
-      child: Image.asset('assets/Recurso_4x.png', width: 200.0, height: 40.0));
+      child: Image.asset('assets/LOGO2.png', width: 200.0, height: 250.0));
 }
 
 // REDIRECCION: metodo para redireccionar a cada pagina desde menu
 void _irPage(String textobtn) {
-  if (textobtn == 'Ir a Inicio Sesión') {
+  if (textobtn == 'Iniciar Sesión') {
     Get.toNamed('/Login');
   } else {
     Get.toNamed('/Signup');
@@ -152,8 +152,7 @@ class InicioSesion extends StatelessWidget {
         margin: const EdgeInsets.all(5),
         color: Colors.transparent,
         padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 8.0),
-        child:
-            Image.asset('assets/Recurso_4x.png', width: 200.0, height: 40.0));
+        child: Image.asset('assets/LOGO2.png', width: 200.0, height: 100.0));
   }
 
   // // crear widget para titulo inicio de sesión
@@ -227,7 +226,8 @@ class InicioSesion extends StatelessWidget {
 // REDIRECCION login: metodo para redireccionar a cada pagina desde menu
   void _irPage2(context, String textobtn) {
     if (textobtn == 'Iniciar Sesión') {
-      Get.toNamed('/Profile');
+      //aqui cambio a mi pagina.
+      Get.toNamed('/VistaPpal');
     } else if (textobtn == 'Login with Google') {
       Get.toNamed('/ImageGoogle');
     } else if (textobtn == '¿Olvidaste la Contraseña?') {
@@ -390,8 +390,7 @@ class SignUpPage extends StatelessWidget {
         margin: const EdgeInsets.all(5),
         color: Colors.transparent,
         padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 8.0),
-        child:
-            Image.asset('assets/Recurso_4x.png', width: 200.0, height: 40.0));
+        child: Image.asset('assets/LOGO2.png', width: 200.0, height: 100.0));
   }
 
   // // crear widget para titulo inicio de sesión
@@ -856,3 +855,4 @@ class _TesterPageState extends State<TesterPage> {
 // -------------------------------------------------
 
 
+// ------------------------------------
