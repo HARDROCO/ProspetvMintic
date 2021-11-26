@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:social_net/presentation/pages/movie_pool.dart';
-import 'package:social_net/presentation/pages/controller.dart';
+import 'package:social_net/presentation/widgets/movie_pool.dart';
+import 'package:social_net/presentation/widgets/controller.dart';
 
 class ResponseScreen extends StatelessWidget {
   final ThemeController controller;

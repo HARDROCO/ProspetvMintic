@@ -1,8 +1,8 @@
-import 'package:social_net/vistas/home.dart';
-import 'package:social_net/vistas/estados.dart';
-import 'package:social_net/vistas/chat.dart';
-import 'package:social_net/vistas/post.dart';
-import 'package:social_net/vistas/publicaciones.dart';
+import 'package:social_net/presentation/pages/home.dart';
+import 'package:social_net/presentation/pages/estados.dart';
+import 'package:social_net/presentation/pages/chat.dart';
+import 'package:social_net/presentation/pages/post.dart';
+import 'package:social_net/presentation/pages/publicaciones.dart';
 import 'package:flutter/material.dart';
 
 class Nav extends StatefulWidget {
