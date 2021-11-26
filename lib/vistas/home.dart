@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:social_net/nav/controller.dart';
-import 'package:social_net/nav/response_screen.dart';
+import 'package:social_net/presentation/pages/controller.dart';
+import 'package:social_net/presentation/pages/response_screen.dart';
 
 class Pagehome extends StatelessWidget {
   final ThemeController controller = Get.find();

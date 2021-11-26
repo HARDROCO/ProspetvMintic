@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:social_net/nav/controller.dart';
-import 'package:social_net/nav/nav.dart';
+import 'package:social_net/presentation/pages/controller.dart';
+import 'package:social_net/presentation/pages/nav.dart';
 
 class VistaPpal extends StatefulWidget {
   const VistaPpal({Key? key}) : super(key: key);

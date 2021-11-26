@@ -3,7 +3,7 @@ import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 import 'package:get/get_navigation/src/routes/transitions_type.dart';
 import 'package:social_net/ui/widgets/filas_colum_list.dart';
-import 'package:social_net/nav/vistas.dart';
+import 'package:social_net/presentation/pages/vistas.dart';
 
 void main() {
   runApp(const MyApp());
